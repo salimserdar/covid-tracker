@@ -1,0 +1,50 @@
+.world-total {
+  padding: 0 24px;
+}
+
+.infoTile {
+  .infoTileHeader {
+    .title {
+      font-size: 20px;
+      font-weight: 600;
+    }
+  }
+
+  .confirmed {
+    font-size: 32px;
+    color: #de3700;
+    font-weight: bold;
+    line-height: 40px;
+  }
+
+  .infoTileData {
+    
+    position: relative;
+    padding-bottom: 20px;
+    border-bottom: solid 1px rgb(247, 247, 247);
+
+    .legend {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 13px;
+      line-height: 20px;
+
+      .description {
+        margin-left: 15px;
+      }
+
+      .total {
+          font-weight: 400;
+      }
+
+      .color {
+        position: absolute;
+        left: 0;
+        width: 8px;
+        height: 8px;
+        border-radius: 8px;
+      }
+    }
+  }
+}

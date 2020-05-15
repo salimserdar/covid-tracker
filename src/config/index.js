@@ -1,0 +1,1 @@
+export const API = 'https://corona.lmao.ninja/v2/';
