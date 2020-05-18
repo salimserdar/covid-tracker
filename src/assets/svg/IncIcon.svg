@@ -1,0 +1,7 @@
+<div class="sortDropDownItemIcon">
+    <svg width="20" height="16" viewBox="0 0 20 16" fill="none">
+        <rect x="2" y="10" width="4" height="4" rx="1" fill="#919191"></rect>
+        <rect x="8" y="6" width="4" height="8" rx="1" fill="#919191"></rect>
+        <rect x="14" y="2" width="4" height="12" rx="1" fill="#919191"></rect>
+    </svg>
+</div>

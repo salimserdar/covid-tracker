@@ -4,7 +4,7 @@ import SpecCountry from '../components/SpecCountry'
 export class Body extends Component {
     render() {
         return (
-            <div>
+            <div style={{width: '100%'}}>
                 <SpecCountry/>
             </div>
         )

@@ -1,0 +1,10 @@
+<svg width="8" height="6" viewBox="0 0 8 6" fill="none">
+    <g clip-path="url(#sortAffordanceMenuClip)">
+        <path d="M6.95969 0.5H1.04031C0.621059 0.5 0.387973 0.984966 0.649878 1.31235L3.60957 5.01196C3.80973 5.26216 4.19027 5.26216 4.39043 5.01196L7.35012 1.31235C7.61203 0.984966 7.37894 0.5 6.95969 0.5V0.5Z" fill="#666666"></path>
+    </g>
+    <defs>
+        <clipPath id="sortAffordanceMenuClip">
+            <rect y="0.5" width="8" height="5" fill="white"></rect>
+        </clipPath>
+    </defs>
+</svg>

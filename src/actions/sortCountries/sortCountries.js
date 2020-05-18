@@ -14,17 +14,3 @@ export const getAllCounties = () => {
         });
     };
 };
-
-export const getSortedDec = () => {
-  return dispatch => {
-    axios
-      .get(`${API}countries?sort=cases`)
-      .then(res => {
-        dispatch({type: 'GET_ALL_COUNTRIES', payload: res.data});
-      })
-      .catch(err => {
-        // dispatch(addTodoFailure(err.message));
-        console.log(err)
-      });
-  };
-};

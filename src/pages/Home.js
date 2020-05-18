@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Header from "../components/Header";
 import LeftSide from "../layout/LeftSide";
 import Body from "../layout/Body";
 import { connect } from "react-redux";
@@ -10,7 +11,7 @@ class Home extends Component {
   componentDidMount() {
     this.props.getTotal();
     this.props.getAllCounties();
-    this.props.getSelectedCountry('USA');
+    this.props.getSelectedCountry("USA");
   }
 
   render() {
@@ -18,12 +19,21 @@ class Home extends Component {
       <div
         style={{
           display: "flex",
+          flexDirection: "column",
           background: "rgba(247, 247, 247, 1)",
           height: "100vh",
         }}
       >
-        <LeftSide />
-        <Body />
+        <Header />
+        <div
+          style={{
+            display: "flex",
+            overflow: "hidden"
+          }}
+        >
+          <LeftSide />
+          <Body />
+        </div>
       </div>
     );
   }
@@ -39,7 +49,7 @@ const mapDispatchToProps = (dispatch) => {
   return {
     getTotal: () => dispatch(getTotal()),
     getAllCounties: () => dispatch(getAllCounties()),
-    getSelectedCountry: (country) => dispatch(getSelectedCountry(country))
+    getSelectedCountry: (country) => dispatch(getSelectedCountry(country)),
   };
 };
 
