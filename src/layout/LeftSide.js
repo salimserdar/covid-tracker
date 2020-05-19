@@ -10,7 +10,7 @@ export class LeftSide extends Component {
     return (
       <div className="left-sidebar">
         <WorldTotal />
-        <SortData />
+        {/* <SortData /> */}
         <FilterCountry />
         <AllCountries />
       </div>

@@ -7,6 +7,8 @@ import { getTotal } from "../actions/totalData/getTotalData";
 import { getAllCounties } from "../actions/allCounties/getAllCounties";
 import { getSelectedCountry } from "../actions/selectedCountry";
 
+import './Home.scss'
+
 class Home extends Component {
   componentDidMount() {
     this.props.getTotal();
@@ -25,12 +27,7 @@ class Home extends Component {
         }}
       >
         <Header />
-        <div
-          style={{
-            display: "flex",
-            overflow: "hidden"
-          }}
-        >
+        <div className="home-body">
           <LeftSide />
           <Body />
         </div>

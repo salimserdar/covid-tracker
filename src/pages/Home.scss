@@ -1,0 +1,11 @@
+.home-body {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+    .home-body {
+      flex-direction: column;
+    }
+}
