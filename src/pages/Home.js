@@ -7,7 +7,7 @@ import { getTotal } from "../actions/totalData/getTotalData";
 import { getAllCounties } from "../actions/allCounties/getAllCounties";
 import { getSelectedCountry } from "../actions/selectedCountry";
 
-import './Home.scss'
+import "./Home.scss";
 
 class Home extends Component {
   componentDidMount() {
@@ -18,14 +18,7 @@ class Home extends Component {
 
   render() {
     return (
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          background: "rgba(247, 247, 247, 1)",
-          height: "100vh",
-        }}
-      >
+      <div className="home-wrapper">
         <Header />
         <div className="home-body">
           <LeftSide />
