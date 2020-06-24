@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This us the repo for Data of COVID website. Please visit here: (https://dataofcovid.com/).
 
 ## Available Scripts
 
